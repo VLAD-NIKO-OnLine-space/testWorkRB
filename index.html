@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="Тестовое задание для RB от Владислава">
+    <meta name="color-scheme" content="ligth only">
+    <meta name="author" content="Владислав Конищев" />
+    <link rel="icon" type="image/svg+xml" href="./img/icon.png" />
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.scss">
+    <link rel="stylesheet" href="./mix.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Test_Work by VLAD NIKO</title>
+</head>
+
+<body>
+    <section class='videoSection'>
+        <div class="wrapper">
+            <div class="frameWrapper" >
+                <img src="./img/fon.jpg" class="imgFon" id="poster">
+                <iframe 
+                    id="player2" 
+                    width="100%" 
+                    height="100%" 
+                    src="https://www.youtube.com/embed/cs1e0fRyI18" frameborder="0" 
+                    allow="autoplay" 
+                    class="video"
+                >
+                </iframe>
+            </div>
+            <button id="play" class="playButton">Смотреть видео <img src="./img/Arrow.svg"></button>   
+        </div>
+    </section>
+
+    <section class="catalog">
+        <div class="container">
+            <div class="formContent">
+                <form class="form" action="./sendmail.php" method="post">
+                    <div class="top">
+                        <h1 class="formTitle">Оставте заявку</h1>
+                        <button id="exit"></button>
+                    </div>
+                    <input type="text" placeholder="Ваше имя *" class="input" name="name">
+                    <input type="number" placeholder="Номер телефона *" class="input" name="phone">
+                    <div class="bottomContainer">
+                        <div class="left">
+                            <input type="checkbox">
+                            <p>Я соглашаюсь на обработку персональных данных</p>
+                        </div>
+                        <input class="application-button" type="submit" value="Отправить">
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="content">
+                <div class="card-peas">
+                    <div class="iconsButton">
+                        <button class="iconButton"><img clas="icon" src="./img/likkk.svg.svg"></button>
+                        <button class="iconButton"><img clas="icon" src="./img/Vector (1).svg"></button>
+                    </div>
+                    <h2 class="text">Горох в стручках, 1 кг</h2>
+                    <div class="info">
+                        <div class="content-left">
+                            <h5 class="discount">-29%</h5>
+                            <h4 class="h4">Товар дня</h4>
+                        </div>
+                        <div class="content-right">
+                            <p class="price">570 ₽</p>
+                            <button class="application-button" id="myButton">Оставить заявку</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardWrapper">
+                    <div class="card1">
+                        <div class="iconsButton">
+                            <button class="iconButton"><img clas="icon" src="./img/likkk.svg.svg"></button>
+                            <button class="iconButton"><img clas="icon" src="./img/Vector (1).svg"></button>
+                        </div>
+                        <h2 class="text">Голубика лесная, 200 г</h2>
+                        <div class="info">
+                            <div class="content-left">
+                                <h5 class="discount discount2">-31%</h5>
+                                <h4 class="h4 h42">Распродажа</h4>
+                            </div>
+                            <div class="content-right">
+                                <p class="price">140 ₽</p>
+                                <button class="application-button" id="myButton">Оставить заявку</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <div class="iconsButton">
+                            <button class="iconButton"><img clas="icon" src="./img/likkk.svg.svg"></button>
+                            <button class="iconButton"><img clas="icon" src="./img/Vector (1).svg"></button>
+                        </div>
+                        <h2 class="text">Морковь мытая, 1 кг</h2>
+                        <div class="info">
+                            <div class="content-left">
+                                <h5 class="discount discount3">Хит</h5>
+                            </div>
+                            <div class="content-right">
+                                <p class="price">140 ₽</p>
+                                <button class="application-button">Оставить заявку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="verticalCards">
+                    <div class="card3">
+                        <div class="iconsButton">
+                            <button class="iconButton"><img clas="icon" src="./img/likkk.svg.svg"></button>
+                            <button class="iconButton"><img clas="icon" src="./img/Vector (1).svg"></button>
+                        </div>
+                        <div class="content-left content-left2">
+                            <h4 class="h4">Товар дня</h4>
+                            <h5 class="discount">-29%</h5>
+                        </div>
+                        <img src="./img/Background (3).jpg" class="img3">
+                        <p class="about">Попкорн солёный, для СВЧ-печи, 120 г</p>
+                        <p class="price price2">160 ₽</p>
+                        <button class="application-button">Оставить заявку</button>
+                    </div>
+                    <div class="card3">
+                        <div class="iconsButton">
+                            <button class="iconButton"><img clas="icon" src="./img/likkk.svg.svg"></button>
+                            <button class="iconButton"><img clas="icon" src="./img/Vector (1).svg"></button>
+                        </div>
+                        <h5 class="discount discount3 discount4">Хит</h5>
+                        <img src="./img/Background (4).jpg" class="img3">
+                        <p class="about">Попкорн солёный, для СВЧ-печи, 120 г</p>
+                        <p class="price price2">160 ₽</p>
+                        <button class="application-button">Оставить заявку</button>
+                    </div>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slide_1">
+                            <div class="card3">
+                                <div class="iconsButton">
+                                    <button class="iconButton"><img clas="icon" src="./img/likkk.svg.svg"></button>
+                                    <button class="iconButton"><img clas="icon" src="./img/Vector (1).svg"></button>
+                                </div>
+                                <div class="content-left content-left2">
+                                    <h4 class="h4">Товар дня</h4>
+                                    <h5 class="discount">-29%</h5>
+                                </div>
+                                <img src="./img/Background (3).jpg" class="img3">
+                                <p class="about">Попкорн солёный, для СВЧ-печи, 120 г</p>
+                                <p class="price price2">160 ₽</p>
+                                <button class="application-button">Оставить заявку</button>
+                            </div>
+                        </div> 
+                    <div class="swiper-slide slide_2">
+                        <div class="card3">
+                            <div class="iconsButton">
+                                <button class="iconButton"><img clas="icon" src="./img/likkk.svg.svg"></button>
+                                <button class="iconButton"><img clas="icon" src="./img/Vector (1).svg"></button>
+                            </div>
+                            <div class="content-left content-left2">
+                                <h4 class="h4">Товар дня</h4>
+                                <h5 class="discount">-29%</h5>
+                            </div>
+                            <img src="./img/Background (3).jpg" class="img3">
+                            <p class="about">Попкорн солёный, для СВЧ-печи, 120 г</p>
+                            <p class="price price2">160 ₽</p>
+                            <button class="application-button">Оставить заявку</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

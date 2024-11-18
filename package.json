@@ -1,0 +1,15 @@
+{
+  "name": "yestwork4rb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.81.0",
+    "swiper": "^11.1.14"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  }
+}
